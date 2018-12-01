@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h3>{{ message }}</h3>
+    <div class="hero"></div>
   </div>
 </template>
 
@@ -12,9 +11,15 @@ import HelloWorld from "@/components/HelloWorld.vue";
 export default {
   name: "home",
   data() {
-    return {
-      message: "Welcome to my vue portfolio"
-    };
+    return {};
   }
 };
 </script>
+<style>
+.hero {
+  background: url("/images/hero-bg.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+</style>
