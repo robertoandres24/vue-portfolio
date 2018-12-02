@@ -6,10 +6,26 @@
 
 <style lang="scss">
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 14px;
+  font-size: 1.4rem;
+} /* =14px */
+h1 {
+  font-size: 54px;
+  font-size: 5.4rem;
+}
+h2 {
+  font-size: 44px;
+  font-size: 4.4rem;
+}
+h3 {
+  font-size: 34px;
+  font-size: 3.4rem;
 }
 </style>
