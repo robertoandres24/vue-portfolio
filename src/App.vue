@@ -28,4 +28,7 @@ h3 {
   font-size: 34px;
   font-size: 3.4rem;
 }
+p {
+  font-size: 1.6rem;
+}
 </style>
