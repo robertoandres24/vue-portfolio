@@ -73,7 +73,6 @@ export default {
   position: absolute;
   top: 39%;
 
-  @include font-regular();
   .name {
     color: $blue;
   }

@@ -1,79 +1,57 @@
 @font-face {
     font-family: 'Roboto-Black';
-    src: url("~/assets/fonts/roboto/Roboto-Black.eot"); /* IE9 Compat Modes */
-    src: url("~/assets/fonts/roboto/Roboto-Black.woff2") format('woff2'), /* Super Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-Black.woff") format('woff'), /* Pretty Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-Black.ttf")  format('truetype'), /* Safari, Android, iOS */
+    src: url("/static/fonts/roboto/Roboto-Black.eot"); /* IE9 Compat Modes */
+    src: url("/static/fonts/roboto/Roboto-Black.ttf")  format('truetype'), /* Safari, Android, iOS */
   }
 @font-face {
     font-family: 'Roboto-BlackItalic';
-    src: url("~/assets/fonts/roboto/Roboto-BlackItalic.eot"); /* IE9 Compat Modes */
-    src: url("~/assets/fonts/roboto/Roboto-BlackItalic.woff2") format('woff2'), /* Super Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-BlackItalic.woff") format('woff'), /* Pretty Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-BlackItalic.ttf")  format('truetype'), /* Safari, Android, iOS */
+    src: url("/static/fonts/roboto/Roboto-BlackItalic.eot"); /* IE9 Compat Modes */
+    src: url("/static/fonts/roboto/Roboto-BlackItalic.ttf")  format('truetype'), /* Safari, Android, iOS */
   }
 @font-face {
     font-family: 'Roboto-Bold';
-    src: url("~/assets/fonts/roboto/Roboto-Bold.eot"); /* IE9 Compat Modes */
-    src: url("~/assets/fonts/roboto/Roboto-Bold.woff2") format('woff2'), /* Super Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-Bold.woff") format('woff'), /* Pretty Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-Bold.ttf")  format('truetype'), /* Safari, Android, iOS */
+    src: url("/static/fonts/roboto/Roboto-Bold.eot"); /* IE9 Compat Modes */
+    src: url("/static/fonts/roboto/Roboto-Bold.ttf")  format('truetype'), /* Safari, Android, iOS */
   }
 @font-face {
     font-family: 'Roboto-BoldItalic';
-    src: url("~/assets/fonts/roboto/Roboto-BoldItalic.eot"); /* IE9 Compat Modes */
-    src: url("~/assets/fonts/roboto/Roboto-BoldItalic.woff2") format('woff2'), /* Super Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-BoldItalic.woff") format('woff'), /* Pretty Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-BoldItalic.ttf")  format('truetype'), /* Safari, Android, iOS */
+    src: url("/static/fonts/roboto/Roboto-BoldItalic.eot"); /* IE9 Compat Modes */
+    src: url("/static/fonts/roboto/Roboto-BoldItalic.ttf")  format('truetype'), /* Safari, Android, iOS */
   }
 @font-face {
     font-family: 'Roboto-Light';
-    src: url("~/assets/fonts/roboto/Roboto-Light.eot"); /* IE9 Compat Modes */
-    src: url("~/assets/fonts/roboto/Roboto-Light.woff2") format('woff2'), /* Super Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-Light.woff") format('woff'), /* Pretty Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-Light.ttf")  format('truetype'), /* Safari, Android, iOS */
+    src: url("/static/fonts/roboto/Roboto-Light.eot"); /* IE9 Compat Modes */
+    src: url("/static/fonts/roboto/Roboto-Light.ttf")  format('truetype'), /* Safari, Android, iOS */
   }
 @font-face {
     font-family: 'Roboto-LightItalic';
-    src: url("~/assets/fonts/roboto/Roboto-LightItalic.eot"); /* IE9 Compat Modes */
-    src: url("~/assets/fonts/roboto/Roboto-LightItalic.woff2") format('woff2'), /* Super Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-LightItalic.woff") format('woff'), /* Pretty Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-LightItalic.ttf")  format('truetype'), /* Safari, Android, iOS */
+    src: url("/static/fonts/roboto/Roboto-LightItalic.eot"); /* IE9 Compat Modes */
+    src: url("/static/fonts/roboto/Roboto-LightItalic.ttf")  format('truetype'), /* Safari, Android, iOS */
   }
 @font-face {
     font-family: 'Roboto-Medium';
-    src: url("~/assets/fonts/roboto/Roboto-Medium.eot"); /* IE9 Compat Modes */
-    src: url("~/assets/fonts/roboto/Roboto-Medium.woff2") format('woff2'), /* Super Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-Medium.woff") format('woff'), /* Pretty Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-Medium.ttf")  format('truetype'), /* Safari, Android, iOS */
+    src: url("/static/fonts/roboto/Roboto-Medium.eot"); /* IE9 Compat Modes */
+    src: url("/static/fonts/roboto/Roboto-Medium.ttf")  format('truetype'), /* Safari, Android, iOS */
   }
 @font-face {
     font-family: 'Roboto-MediumItalic';
-    src: url("~/assets/fonts/roboto/Roboto-MediumItalic.eot"); /* IE9 Compat Modes */
-    src: url("~/assets/fonts/roboto/Roboto-MediumItalic.woff2") format('woff2'), /* Super Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-MediumItalic.woff") format('woff'), /* Pretty Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-MediumItalic.ttf")  format('truetype'), /* Safari, Android, iOS */
+    src: url("/static/fonts/roboto/Roboto-MediumItalic.eot"); /* IE9 Compat Modes */
+    src: url("/static/fonts/roboto/Roboto-MediumItalic.ttf")  format('truetype'), /* Safari, Android, iOS */
   }
 @font-face {
     font-family: 'Roboto-Regular';
-    src: url("~/assets/fonts/roboto/Roboto-Regular.eot"); /* IE9 Compat Modes */
-    src: url("~/assets/fonts/roboto/Roboto-Regular.woff2") format('woff2'), /* Super Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-Regular.woff") format('woff'), /* Pretty Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-Regular.ttf")  format('truetype'), /* Safari, Android, iOS */
+    src: url("/static/fonts/roboto/Roboto-Regular.eot"); /* IE9 Compat Modes */
+    src: url("/static/fonts/roboto/Roboto-Regular.ttf")  format('truetype'), /* Safari, Android, iOS */
   }
 @font-face {
     font-family: 'Roboto-Thin';
-    src: url("~/assets/fonts/roboto/Roboto-Thin.eot"); /* IE9 Compat Modes */
-    src: url("~/assets/fonts/roboto/Roboto-Thin.woff2") format('woff2'), /* Super Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-Thin.woff") format('woff'), /* Pretty Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-Thin.ttf")  format('truetype'), /* Safari, Android, iOS */
+    src: url("/static/fonts/roboto/Roboto-Thin.eot"); /* IE9 Compat Modes */
+    src: url("/static/fonts/roboto/Roboto-Thin.ttf")  format('truetype'), /* Safari, Android, iOS */
   }
 @font-face {
     font-family: 'Roboto-ThinItalic';
-    src: url("~/assets/fonts/roboto/Roboto-ThinItalic.eot"); /* IE9 Compat Modes */
-    src: url("~/assets/fonts/roboto/Roboto-ThinItalic.woff2") format('woff2'), /* Super Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-ThinItalic.woff") format('woff'), /* Pretty Modern Browsers */
-         url("~/assets/fonts/roboto/Roboto-ThinItalic.ttf")  format('truetype'), /* Safari, Android, iOS */
+    src: url("/static/fonts/roboto/Roboto-ThinItalic.eot"); /* IE9 Compat Modes */
+    src: url("/static/fonts/roboto/Roboto-ThinItalic.ttf")  format('truetype'), /* Safari, Android, iOS */
   }
 
 
