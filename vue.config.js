@@ -1,5 +1,5 @@
 module.exports = {
-    baseUrl: process.env.NODE_ENV === 'production' ? './' : '/',
+    baseUrl: process.env.NODE_ENV === 'production' ? '/vue-portfolio/' : '/',
     css: {
         loaderOptions: {
             // pass options to sass-loader
