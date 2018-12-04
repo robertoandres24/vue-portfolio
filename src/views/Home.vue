@@ -56,7 +56,7 @@ export default {
   position: relative;
 }
 .hero {
-  background: url("/images/hero-bg.jpg") no-repeat;
+  background: url("/static/images/hero-bg.jpg") no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
