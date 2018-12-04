@@ -31,7 +31,7 @@ export default {
     let options = {
       strings: [
         "A Full-stack developer",
-        "working remotely from Osorno, Chile"
+        "Working remotely from Osorno, Chile"
       ],
       typeSpeed: 50,
       backSpeed: 20,
