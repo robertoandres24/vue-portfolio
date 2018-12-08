@@ -102,7 +102,7 @@ export default {
 }
 .hero {
   background-color: black;
-  background-size: cover;
+  object-fit: cover;
   height: 100%;
   width: 100%;
   background-position: center;
