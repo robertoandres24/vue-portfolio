@@ -1,7 +1,9 @@
 <template>
   <div class="home">
-    <div class="hero">
-      <div class="bg-overlay"></div>
+    <img ref="heroBg" src="../assets/images/hero-bg.jpg" class="hero">
+    <div class="bg-overlay"></div>
+    <div v-show="!heroLoaded" class="preloader">
+      <img src="../assets/images/html-tag.svg" alt>
     </div>
     <div class="container">
       <div class="welcome">
@@ -19,33 +21,65 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-import Typed from "typed.js";
+import Typed from 'typed.js'
 
 export default {
-  name: "home",
+  name: 'home',
   data() {
-    return {};
+    return {
+      heroLoaded: false
+    }
+  },
+  methods: {
+    initTyped() {
+      let options = {
+        strings: [
+          'A Full-stack developer',
+          'Working remotely from Osorno, Chile'
+        ],
+        typeSpeed: 50,
+        backSpeed: 20,
+        backDelay: 1000,
+        onComplete: self => {
+          console.log(self)
+        }
+      }
+
+      let typed = new Typed('.element', options)
+    },
+    handlePreloader() {
+      let heroBg = this.$refs.heroBg
+      heroBg.onload = () => {
+        this.heroLoaded = true
+        console.log('hero loaded')
+      }
+    }
   },
   mounted() {
-    let options = {
-      strings: [
-        "A Full-stack developer",
-        "Working remotely from Osorno, Chile"
-      ],
-      typeSpeed: 50,
-      backSpeed: 20,
-      backDelay: 1000,
-      onComplete: self => {
-        console.log(self);
-      }
-    };
-
-    let typed = new Typed(".element", options);
+    this.initTyped()
+    this.handlePreloader()
   }
-};
+}
 </script>
 <style lang="scss">
+.preloader {
+  position: absolute;
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  animation: spin 2s linear infinite;
+  animation-delay: 0.5s;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .container {
   padding: 6rem;
 }
@@ -56,7 +90,7 @@ export default {
   position: relative;
 }
 .hero {
-  background: url("~@/assets/images/hero-bg.jpg") no-repeat;
+  background-color: black;
   background-size: cover;
   height: 100%;
   width: 100%;
