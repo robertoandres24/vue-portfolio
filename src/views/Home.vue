@@ -10,15 +10,17 @@
       </div>
     </transition>
     <div class="container">
-      <div class="welcome">
-        <h1>
-          Hi, I'm
-          <span class="name">Roberto Obando</span>
-        </h1>
-        <h3 class="wrapper-element">
-          <span class="element"></span>
-        </h3>
-      </div>
+      <transition name="fade">
+        <div v-show="heroLoaded" class="welcome">
+          <h1>
+            Hi, I'm
+            <span class="name">Roberto Obando</span>
+          </h1>
+          <h3 class="wrapper-element">
+            <span class="element"></span>
+          </h3>
+        </div>
+      </transition>
     </div>
   </div>
 </template>
@@ -93,6 +95,8 @@ export default {
 }
 .container {
   padding: 6rem;
+  width: 100%;
+  height: 100%;
 }
 .home {
   height: 100vh;
@@ -117,6 +121,9 @@ export default {
 .welcome {
   position: absolute;
   top: 39%;
+  @include media('>phone', '<=tablet') {
+    top: 30%;
+  }
 
   .name {
     color: $blue;

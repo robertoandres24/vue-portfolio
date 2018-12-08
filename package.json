@@ -9,6 +9,7 @@
     "deploy": "./deploy.sh"
   },
   "dependencies": {
+    "include-media": "^1.4.9",
     "typed.js": "^2.0.9",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
