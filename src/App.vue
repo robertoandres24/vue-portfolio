@@ -9,6 +9,7 @@
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: black;
 }
 html {
   font-size: 62.5%;

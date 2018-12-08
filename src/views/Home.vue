@@ -1,10 +1,14 @@
 <template>
   <div class="home">
-    <img ref="heroBg" src="../assets/images/hero-bg.jpg" class="hero">
+    <transition name="fade">
+      <img v-show="heroLoaded" ref="heroBg" src="../assets/images/hero-bg.jpg" class="hero">
+    </transition>
     <div class="bg-overlay"></div>
-    <div v-show="!heroLoaded" class="preloader">
-      <img src="../assets/images/html-tag.svg" alt>
-    </div>
+    <transition name="fade">
+      <div v-show="!heroLoaded" class="preloader">
+        <img src="../assets/images/html-tag.svg" alt>
+      </div>
+    </transition>
     <div class="container">
       <div class="welcome">
         <h1>
@@ -62,6 +66,13 @@ export default {
 }
 </script>
 <style lang="scss">
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 .preloader {
   position: absolute;
   display: block;
