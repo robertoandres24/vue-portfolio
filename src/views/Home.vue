@@ -47,22 +47,29 @@ export default {
         backSpeed: 20,
         backDelay: 1000,
         onComplete: self => {
-          console.log(self)
+          // console.log(self)
         }
       }
 
       let typed = new Typed('.element', options)
     },
+    delay(ms) {
+      return new Promise(resolve => {
+        setTimeout(() => {
+          resolve()
+        }, ms)
+      })
+    },
     handlePreloader() {
       let heroBg = this.$refs.heroBg
-      heroBg.onload = () => {
+      heroBg.onload = async () => {
         this.heroLoaded = true
-        console.log('hero loaded')
+        await this.delay(500)
+        this.initTyped()
       }
     }
   },
   mounted() {
-    this.initTyped()
     this.handlePreloader()
   }
 }
