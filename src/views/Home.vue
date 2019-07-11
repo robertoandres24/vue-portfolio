@@ -1,7 +1,7 @@
 <template>
 	<div class="home">
 		<transition name="fade">
-			<img v-show="heroLoaded" ref="heroBg" src="../assets/images/hero-bg-min.jpg" class="hero" />
+			<img v-show="heroLoaded" ref="heroBg" src="../assets/images/hero-bg.jpg" class="hero" />
 		</transition>
 		<div class="bg-overlay"></div>
 		<transition name="fade">
